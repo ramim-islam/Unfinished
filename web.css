@@ -30,8 +30,8 @@ a{
 
 a:hover{
     border-radius: 20px;
-    background-color:rgb(173, 173, 172);
-    color: white;
+    color:rgb(73, 73, 70);
+    font-weight: 600;
 }
 
 .section{
@@ -66,23 +66,22 @@ a:hover{
     width: 158px;
     border-radius: 20px;
 }
-.div-1-1{flex: 10;}
-.div-1-2{flex: 8;}
+.div-1-1{flex: 9;}
+.div-1-2{flex: 10;}
 
 .div-1-1,.div-1-2{
-    /*height: 269px;*/
     margin: 30px;
     box-shadow:0px 0px 5px rgb(180, 178, 178);
     border-radius: 20px;
 }
 .info{
     font-size: 20px;
-    color: rgb(105, 103, 103);
+    color: rgb(158, 157, 157);
     font-weight:600;
     margin: 0px;
 }
 .username{
-    color: rgb(80, 79, 79);
+    color: rgb(131, 131, 131);
     font-weight: 600;
     margin: 0px;
     font-size:15px;
@@ -90,7 +89,15 @@ a:hover{
 .location{
     color: rgb(70, 68, 68);
 }
-.info,.username,.location{
+.more{
+    display:flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow:0px 0px 5px rgb(180, 178, 178);
+    margin: 30px;
+    font-size: 20px;
+}
+.info,.username,.location,.more{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -123,3 +130,4 @@ a:hover{
     display:flex;
     
 }
+
